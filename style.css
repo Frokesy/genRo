@@ -48,3 +48,26 @@ button {
     font-size: 26px;
     margin: 10px auto;
 }
+
+@media (min-width: 690px) {
+    .password-container {
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    button {
+        width: 60%;
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 30px;
+        color: grey;
+    }
+    .password-screen {
+        font-size: 20px;
+    }
+    .password-container h4 {
+        font-size: 22px;
+    }
+}
